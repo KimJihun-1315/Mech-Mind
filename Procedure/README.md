@@ -16,6 +16,10 @@
 # 프로시저 목록
 
 ## 01. 데이터획득
+<!-- Get_PointCloud Preprocessing[취득_포인트클라우드 사전처리] -->
+### [Get_PointCloud Preprocessing](./Procedure/GetData) [취득_포인트클라우드 사전처리]
+    캡쳐시에 카메라에서 ROI 내에서 가장 가까운 위치에 존재하는 
+    포인트 클라우드,마스크이미지, 2D이미지를 획득 함
 <!-- Get_HighestPart PointCloud & Image[취득_최상단 포인트클라우드 & 이미지] -->
 ### [Get_HighestPart PointCloud & Image](./Procedure/GetData) [취득_최상단 포인트클라우드 & 이미지]
     캡쳐시에 카메라에서 ROI 내에서 가장 가까운 위치에 존재하는 

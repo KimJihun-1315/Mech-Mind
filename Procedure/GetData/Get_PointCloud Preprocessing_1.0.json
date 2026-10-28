@@ -1,0 +1,424 @@
+{
+    "ctrl_flows": [
+    ],
+    "data_flows": [
+        {
+            "dest_port": 1,
+            "dest_step": "{067c8efe-9b60-4859-b36b-aa9b40400600}",
+            "src_port": 0,
+            "src_step": "{dcdeed3f-75bb-4b6d-ab1b-1ccbb3481d80}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{c80f690e-bc8e-4777-b89c-b1f74745b766}",
+            "src_port": 0,
+            "src_step": "{067c8efe-9b60-4859-b36b-aa9b40400600}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{3a9af9a2-bfe6-4e99-8037-38b5532a7058}",
+            "src_port": 0,
+            "src_step": "{c80f690e-bc8e-4777-b89c-b1f74745b766}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{837e9b4e-7fd1-41e0-a377-078ec34faa47}",
+            "src_port": 0,
+            "src_step": "{3a9af9a2-bfe6-4e99-8037-38b5532a7058}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{00dcb9db-aa40-4a82-ab76-ad1be6617a80}",
+            "src_port": 0,
+            "src_step": "{837e9b4e-7fd1-41e0-a377-078ec34faa47}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{d6bd6271-8ca1-4e22-b8e4-8370139e748a}",
+            "src_port": 0,
+            "src_step": "{00dcb9db-aa40-4a82-ab76-ad1be6617a80}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{fb4d08ed-167c-42b7-974d-372795cd8806}",
+            "src_port": 0,
+            "src_step": "{d6bd6271-8ca1-4e22-b8e4-8370139e748a}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{e08d4be2-4168-47b8-9f1d-9a18f6753b8d}",
+            "src_port": 0,
+            "src_step": "{476c8ae0-47b1-487c-be80-9ed5a9374aa7}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{90824fa5-a91c-4858-a01f-357aaefa1ea1}",
+            "src_port": 0,
+            "src_step": "{fa290373-6df9-4aeb-b712-a9f8af31a1cb}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{067c8efe-9b60-4859-b36b-aa9b40400600}",
+            "src_port": 0,
+            "src_step": "{90824fa5-a91c-4858-a01f-357aaefa1ea1}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{476c8ae0-47b1-487c-be80-9ed5a9374aa7}",
+            "src_port": 0,
+            "src_step": "{fb4d08ed-167c-42b7-974d-372795cd8806}"
+        }
+    ],
+    "description": {
+        "ko": "Input 1 : DepthMap\nInput 2 : ColorMap\nOutput 1 : PointCloud-Normal\n"
+    },
+    "execFlags": 9,
+    "guid": "{af766432-bca0-4205-985c-45541e44f273}",
+    "isLocked": false,
+    "name": {
+        "en": "Get_PointCloud Preprocessing",
+        "ko": "취득_포인트클라우드 사전처리"
+    },
+    "objectName": "Get_PointCloud Preprocessing",
+    "parameterTuningLevel": 0,
+    "procedure_ends": [
+        {
+            "port": 0,
+            "step": "{e08d4be2-4168-47b8-9f1d-9a18f6753b8d}"
+        }
+    ],
+    "procedure_entries": [
+        {
+            "port": 0,
+            "step": "{fa290373-6df9-4aeb-b712-a9f8af31a1cb}"
+        },
+        {
+            "port": 0,
+            "step": "{dcdeed3f-75bb-4b6d-ab1b-1ccbb3481d80}"
+        }
+    ],
+    "property_groups": {
+        "groupInfos": [
+            {
+                "en": "Filtering",
+                "ko": "필터링",
+                "properties": [
+                    "각도_minAngle",
+                    "각도_maxAngle",
+                    "이웃점_meanK"
+                ]
+            },
+            {
+                "en": "Cluster",
+                "ko": "클러스터링",
+                "properties": [
+                    "포인트 클라우드 클러스터링_1_clusterTolerance",
+                    "포인트 클라우드 클러스터링_1_minClusterNum",
+                    "포인트 클라우드 클러스터링_1_maxClusterNum"
+                ]
+            },
+            {
+                "en": "ROI & Sampling",
+                "ko": "ROI & 샘플링",
+                "properties": [
+                    "영역_roiBoundaryPath",
+                    "포인트 클라우드 다운 샘플링_1_leafSize"
+                ]
+            }
+        ],
+        "properties": [
+            {
+                "attr": {
+                    "en": {
+                        "name": "ROI Name"
+                    },
+                    "ko": {
+                        "name": "ROI 명칭"
+                    }
+                },
+                "name": "roiBoundaryPath",
+                "step": "{3a9af9a2-bfe6-4e99-8037-38b5532a7058}",
+                "type": 2
+            },
+            {
+                "attr": {
+                    "en": {
+                        "decimals": 4,
+                        "name": "Sampling Size",
+                        "singleStep": 0.0001
+                    },
+                    "ko": {
+                        "name": "샘플링 간격"
+                    }
+                },
+                "name": "leafSize",
+                "step": "{837e9b4e-7fd1-41e0-a377-078ec34faa47}",
+                "sub_object": true,
+                "type": 2
+            },
+            {
+                "attr": {
+                    "en": {
+                        "decimals": 4,
+                        "singleStep": 0.0001
+                    }
+                },
+                "name": "minAngle",
+                "step": "{00dcb9db-aa40-4a82-ab76-ad1be6617a80}",
+                "sub_object": true,
+                "type": 2
+            },
+            {
+                "attr": {
+                    "en": {
+                        "decimals": 4,
+                        "singleStep": 0.0001
+                    }
+                },
+                "name": "maxAngle",
+                "step": "{00dcb9db-aa40-4a82-ab76-ad1be6617a80}",
+                "sub_object": true,
+                "type": 2
+            },
+            {
+                "attr": {
+                    "en": {
+                        "decimals": 0,
+                        "singleStep": 0
+                    }
+                },
+                "name": "meanK",
+                "step": "{d6bd6271-8ca1-4e22-b8e4-8370139e748a}",
+                "sub_object": true,
+                "type": 2
+            },
+            {
+                "attr": {
+                    "en": {
+                        "decimals": 4,
+                        "name": "Cluster Tolerance",
+                        "singleStep": 0.0001
+                    },
+                    "ko": {
+                        "name": "클러스터 거리"
+                    }
+                },
+                "name": "clusterTolerance",
+                "step": "{fb4d08ed-167c-42b7-974d-372795cd8806}",
+                "sub_object": true,
+                "type": 2
+            },
+            {
+                "attr": {
+                    "en": {
+                        "decimals": 0,
+                        "name": "Min Point",
+                        "singleStep": 0
+                    },
+                    "ko": {
+                        "name": "최소 포인트"
+                    }
+                },
+                "name": "minClusterNum",
+                "step": "{fb4d08ed-167c-42b7-974d-372795cd8806}",
+                "type": 2
+            },
+            {
+                "attr": {
+                    "en": {
+                        "name": "Max Point",
+                        "singleStep": 1
+                    },
+                    "ko": {
+                        "name": "최대 포인트"
+                    }
+                },
+                "name": "maxClusterNum",
+                "step": "{fb4d08ed-167c-42b7-974d-372795cd8806}",
+                "type": 2
+            }
+        ]
+    },
+    "scene_pos": [
+        -124,
+        151.5
+    ],
+    "steps": [
+        {
+            "execFlags": 9,
+            "guid": "{476c8ae0-47b1-487c-be80-9ed5a9374aa7}",
+            "objectName": "포인트 클라우드를 합치기_2",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                364,
+                2428.5
+            ],
+            "type": "Merge Point Clouds"
+        },
+        {
+            "GaussianFilter": {
+                "_kernelSize": 3
+            },
+            "execFlags": 8,
+            "filterType": "GaussianFilter",
+            "guid": "{90824fa5-a91c-4858-a01f-357aaefa1ea1}",
+            "objectName": "이미지 필터링_1",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                364,
+                -51.5
+            ],
+            "type": "Image Filtering"
+        },
+        {
+            "NormalEstimation": {
+                "halfKernelSize": 3,
+                "searchRadius": 0.005
+            },
+            "cloudPreprocessingType": "NormalEstimation",
+            "execFlags": 9,
+            "guid": "{c80f690e-bc8e-4777-b89c-b1f74745b766}",
+            "minDepthOfValidPoint": 0.1,
+            "objectName": "포인트 클라우드의 법선 벡터를 계산하고 필터링하기_2",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                364,
+                568.5
+            ],
+            "type": "Calc Normals of Point Cloud and Filter It"
+        },
+        {
+            "execFlags": 9,
+            "guid": "{dcdeed3f-75bb-4b6d-ab1b-1ccbb3481d80}",
+            "objectName": "PreProcessing-input <Image/Color->",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                944,
+                -371.5
+            ],
+            "type": "Accept All"
+        },
+        {
+            "StatisticalOutlierFilter": {
+                "meanK": 30,
+                "stddevMulThresh": 2
+            },
+            "execFlags": 9,
+            "guid": "{d6bd6271-8ca1-4e22-b8e4-8370139e748a}",
+            "objectName": "이웃점",
+            "parameterTuningLevel": 0,
+            "pointsFilterType": "StatisticalOutlierFilter",
+            "scene_pos": [
+                364,
+                1808.5
+            ],
+            "type": "Point Filter"
+        },
+        {
+            "coordinateSystemType": 1,
+            "execFlags": 25,
+            "guid": "{3a9af9a2-bfe6-4e99-8037-38b5532a7058}",
+            "isOnlyRoi": true,
+            "isSendNoCloudInfo": true,
+            "minPointNum": 0,
+            "objectName": "영역",
+            "parameterTuningLevel": 0,
+            "roiBoundaryPath": "",
+            "scene_pos": [
+                364,
+                888.5
+            ],
+            "type": "Extract 3D Points in 3D ROI",
+            "useRoiInFlange": true
+        },
+        {
+            "execFlags": 9,
+            "guid": "{fa290373-6df9-4aeb-b712-a9f8af31a1cb}",
+            "objectName": "PreProcessing-input <Image/Depth>",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                364,
+                -371.5
+            ],
+            "type": "Accept All"
+        },
+        {
+            "EuclideanCluster": {
+                "clusterTolerance": 0.0025,
+                "cores": 4
+            },
+            "cloudClusterType": "EuclideanCluster",
+            "execFlags": 13,
+            "guid": "{fb4d08ed-167c-42b7-974d-372795cd8806}",
+            "maxClusterNum": 30000,
+            "minClusterNum": 50,
+            "objectName": "포인트 클라우드 클러스터링_2",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                364,
+                2108.5
+            ],
+            "type": "Point Cloud Clustering"
+        },
+        {
+            "NormalsFilter": {
+                "alignX": 0,
+                "alignY": 0,
+                "alignZ": -1,
+                "maxAngle": 75,
+                "minAngle": 0,
+                "useRobotZInCamera": false
+            },
+            "execFlags": 9,
+            "guid": "{00dcb9db-aa40-4a82-ab76-ad1be6617a80}",
+            "objectName": "각도",
+            "parameterTuningLevel": 0,
+            "pointsFilterType": "NormalsFilter",
+            "scene_pos": [
+                364,
+                1508.5
+            ],
+            "type": "Point Filter"
+        },
+        {
+            "VoxelGridSampler": {
+                "leafSize": 0.001
+            },
+            "execFlags": 9,
+            "guid": "{837e9b4e-7fd1-41e0-a377-078ec34faa47}",
+            "objectName": "포인트 클라우드 다운 샘플링_2",
+            "parameterTuningLevel": 0,
+            "samplerType": "VoxelGridSampler",
+            "scene_pos": [
+                364,
+                1188.5
+            ],
+            "type": "Down-Sample Point Cloud"
+        },
+        {
+            "depthRoiFileName": "depth_image_roi",
+            "execFlags": 13,
+            "guid": "{067c8efe-9b60-4859-b36b-aa9b40400600}",
+            "objectName": "뎁스 맵을 포인트 클라우드로 전환하기_2",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                364,
+                268.5
+            ],
+            "type": "From Depth Map to Point Cloud"
+        },
+        {
+            "execFlags": 9,
+            "guid": "{e08d4be2-4168-47b8-9f1d-9a18f6753b8d}",
+            "objectName": "PreProcessing-output <Cloud(XYZ-Normal>",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                364,
+                2728.5
+            ],
+            "type": "Accept All"
+        }
+    ],
+    "type": "Procedure",
+    "version": "2.2.1"
+}
