@@ -1,0 +1,599 @@
+{
+    "ctrl_flows": [
+    ],
+    "data_flows": [
+        {
+            "dest_port": 0,
+            "dest_step": "{95b89db0-bda5-4d37-a6a5-f52061715aa5}",
+            "src_port": 0,
+            "src_step": "{768f49d1-3003-4f69-bea1-20ff64da1471}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{c5ca0d0d-4f89-41c0-ab1f-3a5a915be641}",
+            "src_port": 0,
+            "src_step": "{7dfa49d5-52f2-4ee2-8e3c-ef95e7e5e6f1}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{12d455d7-0930-4e47-8f16-8f2c8ac26afc}",
+            "src_port": 0,
+            "src_step": "{7dfa49d5-52f2-4ee2-8e3c-ef95e7e5e6f1}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{768f49d1-3003-4f69-bea1-20ff64da1471}",
+            "src_port": 0,
+            "src_step": "{63b07aad-e9cf-40aa-b8dc-6efee8a1bbbf}"
+        },
+        {
+            "dest_port": 1,
+            "dest_step": "{95b89db0-bda5-4d37-a6a5-f52061715aa5}",
+            "src_port": 0,
+            "src_step": "{7dfa49d5-52f2-4ee2-8e3c-ef95e7e5e6f1}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{8646c8dd-4b1f-4a44-be76-011cffb64165}",
+            "src_port": 0,
+            "src_step": "{53ea00a7-1654-45b3-9eaa-e021f85b53f1}"
+        },
+        {
+            "dest_port": 1,
+            "dest_step": "{c5ca0d0d-4f89-41c0-ab1f-3a5a915be641}",
+            "src_port": 0,
+            "src_step": "{8646c8dd-4b1f-4a44-be76-011cffb64165}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{8e42e9ff-6bd6-4a63-8bd3-2b2401fbd262}",
+            "src_port": 0,
+            "src_step": "{b2e7c58d-46c6-4c0c-9d66-6dcf420e0350}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{63b07aad-e9cf-40aa-b8dc-6efee8a1bbbf}",
+            "src_port": 0,
+            "src_step": "{8e42e9ff-6bd6-4a63-8bd3-2b2401fbd262}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{452bbec9-41b3-4d27-8e57-c7f063cf9111}",
+            "src_port": 0,
+            "src_step": "{b2e7c58d-46c6-4c0c-9d66-6dcf420e0350}"
+        },
+        {
+            "dest_port": 1,
+            "dest_step": "{63b07aad-e9cf-40aa-b8dc-6efee8a1bbbf}",
+            "src_port": 0,
+            "src_step": "{452bbec9-41b3-4d27-8e57-c7f063cf9111}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{9894f767-d42a-44be-981f-5375cc6b93b2}",
+            "src_port": 0,
+            "src_step": "{53ea00a7-1654-45b3-9eaa-e021f85b53f1}"
+        },
+        {
+            "dest_port": 1,
+            "dest_step": "{12d455d7-0930-4e47-8f16-8f2c8ac26afc}",
+            "src_port": 0,
+            "src_step": "{9894f767-d42a-44be-981f-5375cc6b93b2}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{e79f6142-e6c2-4612-a15e-c0be85587eb5}",
+            "src_port": 0,
+            "src_step": "{27bcfbe7-658a-4496-9f29-40bc01e75b31}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{4744a3b6-f098-4b8d-a6a9-a4982661fa85}",
+            "src_port": 0,
+            "src_step": "{904274bd-d3c4-468f-ba80-a828217a2b5d}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{9772b479-072c-4649-b0c4-21a460c1c00d}",
+            "src_port": 0,
+            "src_step": "{92ce2849-05fc-42e0-9041-eb13b0c209fc}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{0b292dad-a55d-4c76-abd9-0e61b0f78e6c}",
+            "src_port": 0,
+            "src_step": "{12d455d7-0930-4e47-8f16-8f2c8ac26afc}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{9241c1f9-888f-4025-8acc-dc28a499740e}",
+            "src_port": 0,
+            "src_step": "{0b292dad-a55d-4c76-abd9-0e61b0f78e6c}"
+        },
+        {
+            "dest_port": 1,
+            "dest_step": "{9241c1f9-888f-4025-8acc-dc28a499740e}",
+            "src_port": 0,
+            "src_step": "{e79f6142-e6c2-4612-a15e-c0be85587eb5}"
+        },
+        {
+            "dest_port": 2,
+            "dest_step": "{8e42e9ff-6bd6-4a63-8bd3-2b2401fbd262}",
+            "src_port": 0,
+            "src_step": "{9241c1f9-888f-4025-8acc-dc28a499740e}"
+        },
+        {
+            "dest_port": 2,
+            "dest_step": "{452bbec9-41b3-4d27-8e57-c7f063cf9111}",
+            "src_port": 0,
+            "src_step": "{9241c1f9-888f-4025-8acc-dc28a499740e}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{81fc93f1-fcae-4495-b5d0-42b9c9e0d872}",
+            "src_port": 0,
+            "src_step": "{0b292dad-a55d-4c76-abd9-0e61b0f78e6c}"
+        },
+        {
+            "dest_port": 1,
+            "dest_step": "{81fc93f1-fcae-4495-b5d0-42b9c9e0d872}",
+            "src_port": 0,
+            "src_step": "{4744a3b6-f098-4b8d-a6a9-a4982661fa85}"
+        },
+        {
+            "dest_port": 3,
+            "dest_step": "{452bbec9-41b3-4d27-8e57-c7f063cf9111}",
+            "src_port": 0,
+            "src_step": "{81fc93f1-fcae-4495-b5d0-42b9c9e0d872}"
+        },
+        {
+            "dest_port": 3,
+            "dest_step": "{8e42e9ff-6bd6-4a63-8bd3-2b2401fbd262}",
+            "src_port": 0,
+            "src_step": "{81fc93f1-fcae-4495-b5d0-42b9c9e0d872}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{46a14b8d-1386-455c-83b8-5d42c8fe4cac}",
+            "src_port": 0,
+            "src_step": "{0b292dad-a55d-4c76-abd9-0e61b0f78e6c}"
+        },
+        {
+            "dest_port": 1,
+            "dest_step": "{46a14b8d-1386-455c-83b8-5d42c8fe4cac}",
+            "src_port": 0,
+            "src_step": "{9772b479-072c-4649-b0c4-21a460c1c00d}"
+        },
+        {
+            "dest_port": 4,
+            "dest_step": "{452bbec9-41b3-4d27-8e57-c7f063cf9111}",
+            "src_port": 0,
+            "src_step": "{46a14b8d-1386-455c-83b8-5d42c8fe4cac}"
+        },
+        {
+            "dest_port": 4,
+            "dest_step": "{8e42e9ff-6bd6-4a63-8bd3-2b2401fbd262}",
+            "src_port": 0,
+            "src_step": "{46a14b8d-1386-455c-83b8-5d42c8fe4cac}"
+        },
+        {
+            "dest_port": 1,
+            "dest_step": "{8e42e9ff-6bd6-4a63-8bd3-2b2401fbd262}",
+            "src_port": 0,
+            "src_step": "{c5ca0d0d-4f89-41c0-ab1f-3a5a915be641}"
+        },
+        {
+            "dest_port": 1,
+            "dest_step": "{452bbec9-41b3-4d27-8e57-c7f063cf9111}",
+            "src_port": 0,
+            "src_step": "{12d455d7-0930-4e47-8f16-8f2c8ac26afc}"
+        }
+    ],
+    "execFlags": 9,
+    "guid": "{d4f6fa95-bcc9-4d1c-aadf-363ebef05724}",
+    "name": {
+        "en": "Detection_Gripper(Finger) Collision Area",
+        "ko": "충돌감지_그리퍼 가동범위 내 제품"
+    },
+    "objectName": "Detection_Gripper(Finger) Collision Area",
+    "parameterTuningLevel": 0,
+    "procedure_ends": [
+        {
+            "port": 0,
+            "step": "{95b89db0-bda5-4d37-a6a5-f52061715aa5}"
+        }
+    ],
+    "procedure_entries": [
+        {
+            "port": 0,
+            "step": "{b2e7c58d-46c6-4c0c-9d66-6dcf420e0350}"
+        },
+        {
+            "port": 0,
+            "step": "{7dfa49d5-52f2-4ee2-8e3c-ef95e7e5e6f1}"
+        }
+    ],
+    "property_groups": {
+        "groupInfos": [
+            {
+                "en": "그리퍼 정보",
+                "properties": [
+                    "OffSet_numbers"
+                ]
+            },
+            {
+                "en": "충돌감지 민감도",
+                "properties": [
+                    "포인트 클라우드가 요구에 부합한지 검증하기_1_minPointsNum",
+                    "포인트 클라우드가 요구에 부합한지 검증하기_1_maxPointsNum"
+                ]
+            }
+        ],
+        "properties": [
+            {
+                "attr": {
+                    "en": {
+                        "name": "핑거간 거리"
+                    }
+                },
+                "name": "numbers",
+                "step": "{53ea00a7-1654-45b3-9eaa-e021f85b53f1}",
+                "type": 2
+            },
+            {
+                "attr": {
+                    "en": {
+                        "decimals": 0,
+                        "name": "범위내 포인트수(최소)",
+                        "singleStep": 0
+                    }
+                },
+                "name": "minPointsNum",
+                "step": "{768f49d1-3003-4f69-bea1-20ff64da1471}",
+                "sub_object": true,
+                "type": 2
+            },
+            {
+                "attr": {
+                    "en": {
+                        "decimals": 0,
+                        "name": "범위내 포인트수(최대)",
+                        "singleStep": 0
+                    },
+                    "ko": {
+                        "name": "범위내 포인트수(최대)"
+                    }
+                },
+                "name": "maxPointsNum",
+                "step": "{768f49d1-3003-4f69-bea1-20ff64da1471}",
+                "sub_object": true,
+                "type": 2
+            }
+        ]
+    },
+    "scene_pos": [
+        -200.2197265625,
+        50.65625
+    ],
+    "steps": [
+        {
+            "execFlags": 8,
+            "guid": "{9772b479-072c-4649-b0c4-21a460c1c00d}",
+            "objectName": "수치 계산_7",
+            "operand": 0.001,
+            "operationType": 2,
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                2929.375,
+                646.25
+            ],
+            "type": "Numeric Operation"
+        },
+        {
+            "execFlags": 9,
+            "guid": "{8e42e9ff-6bd6-4a63-8bd3-2b2401fbd262}",
+            "halfX": 0.015,
+            "halfY": 0.015,
+            "halfZ": 0.015,
+            "inputCloudUsage": 1,
+            "objectName": "직육면체 내의 포인트 클라우드를 추출하기_1",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                587.625,
+                1206.25
+            ],
+            "type": "Extract 3D Points in Cuboid"
+        },
+        {
+            "execFlags": 9,
+            "guid": "{8646c8dd-4b1f-4a44-be76-011cffb64165}",
+            "objectName": "수치 계산_1",
+            "operand": 0.0005,
+            "operationType": 2,
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                1335.375,
+                604.75
+            ],
+            "type": "Numeric Operation"
+        },
+        {
+            "dynamicIoSize": 1,
+            "execFlags": 9,
+            "guid": "{95b89db0-bda5-4d37-a6a5-f52061715aa5}",
+            "objectName": "필터링_1",
+            "parameterTuningLevel": 0,
+            "reverseBoolList": false,
+            "scene_pos": [
+                578.9333999999999,
+                2704.1548
+            ],
+            "type": "Filter",
+            "vectorLevel": 0
+        },
+        {
+            "execFlags": 9,
+            "guid": "{452bbec9-41b3-4d27-8e57-c7f063cf9111}",
+            "halfX": 0.015,
+            "halfY": 0.015,
+            "halfZ": 0.015,
+            "inputCloudUsage": 1,
+            "objectName": "직육면체 내의 포인트 클라우드를 추출하기_2",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                1539.71148,
+                1208.10984
+            ],
+            "type": "Extract 3D Points in Cuboid"
+        },
+        {
+            "execFlags": 9,
+            "guid": "{7dfa49d5-52f2-4ee2-8e3c-ef95e7e5e6f1}",
+            "objectName": "Input : <PoseList>",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                999.375,
+                604.75
+            ],
+            "type": "Accept All"
+        },
+        {
+            "end": 1,
+            "execFlags": 8,
+            "guid": "{904274bd-d3c4-468f-ba80-a828217a2b5d}",
+            "inputType": 0,
+            "numbers": "[15]",
+            "objectName": "수치 리스트를 빠르게 만들기_3",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                2642.375,
+                479.25
+            ],
+            "start": 0,
+            "stepSize": 1,
+            "type": "Easy Create Number List"
+        },
+        {
+            "execFlags": 9,
+            "guid": "{b2e7c58d-46c6-4c0c-9d66-6dcf420e0350}",
+            "objectName": "In: <Cloud(XYZ-Normal)>",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                591.375,
+                604.75
+            ],
+            "type": "Accept All"
+        },
+        {
+            "execFlags": 9,
+            "guid": "{9894f767-d42a-44be-981f-5375cc6b93b2}",
+            "objectName": "수치 계산_4",
+            "operand": -0.0005,
+            "operationType": 2,
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                1616.875,
+                618.25
+            ],
+            "type": "Numeric Operation"
+        },
+        {
+            "CloudCapacityFilter": {
+                "maxPointsNum": 360000,
+                "minPointsNum": 6000
+            },
+            "_filterType": "CloudCapacityFilter",
+            "dilateSize": 3,
+            "erodeSize": 3,
+            "execFlags": 9,
+            "guid": "{768f49d1-3003-4f69-bea1-20ff64da1471}",
+            "objectName": "포인트 클라우드가 요구에 부합한지 검증하기_1",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                587.625,
+                2004.25
+            ],
+            "type": "Validate Point Clouds",
+            "useOrthographicProj": false
+        },
+        {
+            "execFlags": 8,
+            "guid": "{e79f6142-e6c2-4612-a15e-c0be85587eb5}",
+            "objectName": "수치 계산_5",
+            "operand": 0.001,
+            "operationType": 2,
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                2355.375,
+                646.25
+            ],
+            "type": "Numeric Operation"
+        },
+        {
+            "end": 1,
+            "execFlags": 9,
+            "guid": "{53ea00a7-1654-45b3-9eaa-e021f85b53f1}",
+            "inputType": 0,
+            "numbers": "[50]",
+            "objectName": "OffSet",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                1335.375,
+                402.75
+            ],
+            "start": 0,
+            "stepSize": 1,
+            "type": "Easy Create Number List"
+        },
+        {
+            "axisTypeOfObjectCoordinate": 1,
+            "execFlags": 9,
+            "guid": "{12d455d7-0930-4e47-8f16-8f2c8ac26afc}",
+            "mappingType": 0,
+            "moveDis": 0,
+            "objectName": "R move",
+            "parameterTuningLevel": 0,
+            "referenceDirection": 1,
+            "scene_pos": [
+                1623.375,
+                892.75
+            ],
+            "showCloudInSceneType": 0,
+            "showPosesType": 1,
+            "type": "Translate Poses along Given Direction",
+            "x": -1,
+            "y": 0,
+            "z": 0
+        },
+        {
+            "dynamicIoSize": 1,
+            "execFlags": 8,
+            "guid": "{81fc93f1-fcae-4495-b5d0-42b9c9e0d872}",
+            "objectName": "데이터 반복 및 연결_2",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                2642.375,
+                892.25
+            ],
+            "type": "Repeat Data and Concatenate Copies",
+            "vectorLevel": 0
+        },
+        {
+            "execFlags": 8,
+            "guid": "{4744a3b6-f098-4b8d-a6a9-a4982661fa85}",
+            "objectName": "수치 계산_6",
+            "operand": 0.001,
+            "operationType": 2,
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                2642.375,
+                646.25
+            ],
+            "type": "Numeric Operation"
+        },
+        {
+            "axisTypeOfObjectCoordinate": 1,
+            "execFlags": 9,
+            "guid": "{c5ca0d0d-4f89-41c0-ab1f-3a5a915be641}",
+            "mappingType": 0,
+            "moveDis": 0,
+            "objectName": "L move",
+            "parameterTuningLevel": 0,
+            "referenceDirection": 1,
+            "scene_pos": [
+                735.375,
+                892.75
+            ],
+            "showCloudInSceneType": 0,
+            "showPosesType": 1,
+            "type": "Translate Poses along Given Direction",
+            "x": 1,
+            "y": 0,
+            "z": 0
+        },
+        {
+            "execFlags": 9,
+            "guid": "{63b07aad-e9cf-40aa-b8dc-6efee8a1bbbf}",
+            "inputSize": 2,
+            "objectName": "데이터를 합치기_1",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                587.625,
+                1584.25
+            ],
+            "type": "Merge Data",
+            "vectorLevel": 1
+        },
+        {
+            "end": 1,
+            "execFlags": 8,
+            "guid": "{92ce2849-05fc-42e0-9041-eb13b0c209fc}",
+            "inputType": 0,
+            "numbers": "[10]",
+            "objectName": "수치 리스트를 빠르게 만들기_4",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                2929.375,
+                479.25
+            ],
+            "start": 0,
+            "stepSize": 1,
+            "type": "Easy Create Number List"
+        },
+        {
+            "dynamicIoSize": 1,
+            "execFlags": 8,
+            "guid": "{9241c1f9-888f-4025-8acc-dc28a499740e}",
+            "objectName": "데이터 반복 및 연결_1",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                2355.375,
+                892.25
+            ],
+            "type": "Repeat Data and Concatenate Copies",
+            "vectorLevel": 0
+        },
+        {
+            "execFlags": 8,
+            "guid": "{0b292dad-a55d-4c76-abd9-0e61b0f78e6c}",
+            "objectName": "데이터 리스트에서 지정된 차원의 요소 개수를 통계하기_1",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                1904.375,
+                687.25
+            ],
+            "type": "Count Elements in Specified Dimension in Data List",
+            "vectorLevel": 0
+        },
+        {
+            "end": 1,
+            "execFlags": 8,
+            "guid": "{27bcfbe7-658a-4496-9f29-40bc01e75b31}",
+            "inputType": 0,
+            "numbers": "[15]",
+            "objectName": "수치 리스트를 빠르게 만들기_2",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                2355.375,
+                479.25
+            ],
+            "start": 0,
+            "stepSize": 1,
+            "type": "Easy Create Number List"
+        },
+        {
+            "dynamicIoSize": 1,
+            "execFlags": 8,
+            "guid": "{46a14b8d-1386-455c-83b8-5d42c8fe4cac}",
+            "objectName": "데이터 반복 및 연결_3",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                2929.375,
+                892.25
+            ],
+            "type": "Repeat Data and Concatenate Copies",
+            "vectorLevel": 0
+        }
+    ],
+    "type": "Procedure"
+}
